@@ -1,0 +1,289 @@
+/* Universal css */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background: #222222;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+
+.font-nunito {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.color1 {
+  color: #BAC964 !important;
+}
+
+.color2 {
+  color: #333333;
+}
+
+.fz-0 {
+  font-size: 13px;
+}
+
+.fz-1 {
+  font-size: 16px;
+}
+
+.fz-2 {
+  font-size: 17px;
+}
+
+.fz-3 {
+  font-size: 24px;
+}
+
+.fz-4 {
+  font-size: 36px;
+}
+
+.container {
+  width: 1170px;
+}
+
+.text-light {
+  color: #ffffff;
+}
+
+.text-muted {
+  color: #3b3b3b;
+}
+
+.text-dark {
+  color: #2d5675 !important;
+}
+
+.colorred {
+  color: #971c1c;
+}
+
+/* Page css */
+.header .bg-img {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("images/image_1.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/image_1.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 800px;
+  position: relative;
+}
+
+.header .img-w {
+  color: white;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header .img-w h1 {
+  font-size: 70px;
+}
+
+.header .img-w h1 strong {
+  font-weight: 1000;
+}
+
+.header .img-w .letter-spacing {
+  letter-spacing: .2rem;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 15px;
+}
+
+.header .navbar {
+  background: transparent !important;
+}
+
+.header .navbar .navbar-nav {
+  margin: 0 auto;
+}
+
+.header .navbar .navbar-nav li {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+.mainbody h2 span {
+  font-weight: 800;
+}
+
+.mainbody a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mainbody .bg-w {
+  background: #333333;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.mainbody .cv-p {
+  margin-bottom: 200px !important;
+}
+
+.mainbody .about .btn {
+  font-size: 15px;
+  background: #BAC964;
+  border-radius: 15px;
+  padding: 5.5px 25px;
+  margin-left: 0;
+  color: #ffffff;
+}
+
+.mainbody .about .btn:hover {
+  background: #889243;
+}
+
+.mainbody .about .btn2 {
+  font-size: 15px;
+  background: #5A6268;
+  border-radius: 15px;
+  padding: 6.5px 30px;
+  margin-left: 0;
+}
+
+.mainbody .about .btn2:hover {
+  background: #50565a;
+}
+
+.mainbody .client {
+  margin: 0 auto;
+}
+
+.mainbody .text {
+  margin-bottom: 200px;
+}
+
+.mainbody .text .img-fluid {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.mainbody .text .bg-primary {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainbody .text .p {
+  background: #333333;
+  margin-left: 20px;
+  padding: 35px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+.mainbody .text2 .idiv {
+  height: 100px;
+  width: 100px;
+  background: #BAC964 !important;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainbody .text2 .fas {
+  top: 50%;
+  position: absolute;
+  height: 100px;
+}
+
+.mainbody .text2 .m-b {
+  padding-bottom: 40px;
+}
+
+.mainbody .text2 .m-y {
+  padding-bottom: -20px !important;
+}
+
+.mainbody .img-bgu {
+  background-color: #333333 !important;
+}
+
+.mainbody .from-control {
+  display: block;
+  width: 100%;
+  height: calc(2.5rem + 2px);
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  background: #333333;
+  border: none;
+}
+
+.mainbody .inputbx .message {
+  padding-bottom: 250px !important;
+}
+
+.mainbody .inputbx .btn-primar {
+  background: #BAC964 !important;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 13px 30px !important;
+}
+
+footer .div-bg {
+  height: 50px;
+  width: 50px;
+  background: #333333;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+
+/*................Media...............*/
+/*# sourceMappingURL=style.css.map */
